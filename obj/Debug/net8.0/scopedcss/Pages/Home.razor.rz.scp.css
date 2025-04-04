@@ -1,0 +1,101 @@
+*[b-p37curf7rd] {
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.app-container[b-p37curf7rd] {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 40%;
+    align-items: center;
+    justify-content: baseline;
+    background-color: #24232a;
+    height: 80vh;
+    padding: 20px 40px;
+}
+
+.app-container > *[b-p37curf7rd] {
+    width: 100%;
+}
+
+.app-header[b-p37curf7rd] {
+    display: inherit;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.password-field[b-p37curf7rd] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-field > span[b-p37curf7rd] {
+    flex-grow: 11;
+}
+
+.copy-icon[b-p37curf7rd] {
+    cursor: pointer;
+    flex-grow: 1  ;
+}
+
+.app-body[b-p37curf7rd] {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-body > *[b-p37curf7rd] {
+    width: 100%;
+}
+
+.options-section[b-p37curf7rd] {
+    display: inherit;
+    flex-direction: column;
+}
+
+.strength-indicator[b-p37curf7rd] {
+    display: flex;
+}
+
+.strength-pill[b-p37curf7rd] {
+    width: 70px;
+    height: 7px;
+    border-radius: 30px;
+    margin: 2px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.weak-strength-pill[b-p37curf7rd] {
+    background-color: red;
+}
+
+.normal-strength-pill[b-p37curf7rd] { 
+    background-color: yellow;
+}
+
+.strong-strength-pill[b-p37curf7rd] {
+    background-color: green;
+}
+
+input[type="number"][b-p37curf7rd] {
+    text-align: right;
+    width: 20%;
+    border: none;
+    background-color: #24232a;
+}
+
+button[b-p37curf7rd] {
+    color: #000;
+    padding: 10px 20px;
+    background-color: #a5ffb0;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
