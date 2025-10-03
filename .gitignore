@@ -482,3 +482,37 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Ignore all files inside obj folders
+obj/
+**/obj/
+
+bin/
+**/bin/
+bin/Debug/net8.0/PassGen.dll
+bin/Debug/net8.0/PassGen.pdb
+bin/Debug/net8.0/PassGen.staticwebassets.runtime.json
+bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json
+bin/Debug/net8.0/wwwroot/_framework/blazor.boot.json.gz
+bin/Debug/net8.0/wwwroot/_framework/PassGen.pdb
+bin/Debug/net8.0/wwwroot/_framework/PassGen.pdb.gz
+bin/Debug/net8.0/wwwroot/_framework/PassGen.wasm.gz
+bin/Debug/net8.0/wwwroot/_framework/PassGen.wasm
+obj/Debug/net8.0/blazor.boot.json
+obj/Debug/net8.0/PassGen.AssemblyInfo.cs
+obj/Debug/net8.0/PassGen.AssemblyInfoInputs.cache
+obj/Debug/net8.0/PassGen.csproj.FileListAbsolute.txt
+obj/Debug/net8.0/PassGen.dll
+obj/Debug/net8.0/PassGen.pdb
+obj/Debug/net8.0/staticwebassets.build.json
+obj/Debug/net8.0/staticwebassets.development.json
+obj/Debug/net8.0/ref/PassGen.dll
+obj/Debug/net8.0/refint/PassGen.dll
+obj/Debug/net8.0/scopedcss/bundle/PassGen.styles.css
+obj/Debug/net8.0/scopedcss/Pages/Home.razor.rz.scp.css
+obj/Debug/net8.0/scopedcss/projectbundle/PassGen.bundle.scp.css
+obj/Debug/net8.0/tmp-webcil/PassGen.wasm
+obj/Debug/net8.0/webcil/PassGen.wasm
+obj/Debug/net8.0/scopedcss/bundle/PassGen.styles.css
+obj/Debug/net8.0/scopedcss/Pages/Home.razor.rz.scp.css
+obj/Debug/net8.0/scopedcss/projectbundle/PassGen.bundle.scp.css
